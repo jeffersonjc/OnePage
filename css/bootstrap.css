@@ -3182,6 +3182,7 @@ input[type="button"].btn-block {
 .collapse {
   display: none;
   visibility: hidden;
+  position: absolute;
 }
 .collapse.in {
   display: block;
@@ -3196,7 +3197,7 @@ tbody.collapse.in {
 .collapsing {
   position: relative;
   height: 0;
-  overflow: hidden;
+    overflow: hidden;
   -webkit-transition-timing-function: ease;
        -o-transition-timing-function: ease;
           transition-timing-function: ease;
